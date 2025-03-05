@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main(){
+    int n;
+    printf("How many miles far away are we?\n");
+    scanf("%d", &n);
+    do
+    {
+        printf("We are %d miles far away.\n", n);
+    } while (n != 0, n--);
+    printf("We are here.\n");
+    return 0;
+    
+}
